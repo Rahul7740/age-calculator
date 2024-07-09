@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css">
+  <title>age calculate</title>
+</head>
+
+<body>
+  <form class="calculate">
+    <h1>Age calculator</h1>
+    <div class="divs-parent">
+      <div class="divs">
+        <label for="date">Date</label>
+        <input id="date" class="date" max="31" type="number" placeholder="date" required />
+      </div>
+      <div class="divs">
+        <label for="month">Month</label>
+        <input id="month" class="month" max="12" type="number" placeholder="month" required />
+      </div>
+      <div class="divs">
+        <label for="year">Year</label>
+        <input id="year" type="number" placeholder="year" required />
+      </div>
+    </div>
+    <button class="calculate-btn">calculate</button>
+    <p id="para"></p>
+  </form>
+  <script src="./index.js"></script>
+</body>
+
+</html>
